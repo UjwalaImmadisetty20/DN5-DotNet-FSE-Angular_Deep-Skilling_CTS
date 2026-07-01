@@ -1,0 +1,132 @@
+user_id	full_name	event_id	title	city	start_date
+1	Alice Johnson	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+6	Fiona Green	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+6	Fiona Green	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+6	Fiona Green	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+6	Fiona Green	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+9	Ian Black	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+9	Ian Black	1	Tech Innovators Meetup	New York	2025-06-10 10:00:00
+5	Ethan Hunt	3	Frontend Development Bootcamp	Los Angeles	2025-07-01 10:00:00
+7	George Brown	3	Frontend Development Bootcamp	Los Angeles	2025-07-01 10:00:00
+7	George Brown	3	Frontend Development Bootcamp	Los Angeles	2025-07-01 10:00:00
+10	Jill Blue	3	Frontend Development Bootcamp	Los Angeles	2025-07-01 10:00:00
+10	Jill Blue	3	Frontend Development Bootcamp	Los Angeles	2025-07-01 10:00:00
+event_id	title	avg_rating	feedback_count
+1	Tech Innovators Meetup	4.3333	21
+user_id	full_name	email
+1	Alice Johnson	alice@example.com
+2	Bob Smith	bob@example.com
+3	Charlie Lee	charlie@example.com
+4	Diana King	diana@example.com
+5	Ethan Hunt	ethan@example.com
+6	Fiona Green	fiona@example.com
+7	George Brown	george@example.com
+8	Hannah White	hannah@example.com
+9	Ian Black	ian@example.com
+10	Jill Blue	jill@example.com
+11	Kevin Gray	kevin@example.com
+12	Lara North	lara@example.com
+13	Mike South	mike@example.com
+14	Nina East	nina@example.com
+15	Oscar West	oscar@example.com
+event_id	title	sessions_10_to_12
+1	Tech Innovators Meetup	2
+2	AI & ML Conference	0
+3	Frontend Development Bootcamp	1
+4	Solo Meetup	0
+5	Resource Only Event	0
+6	Solo Meetup	0
+7	Resource Only Event	0
+city	distinct_users
+Los Angeles	4
+New York	4
+Chicago	2
+event_id	title	pdf_count	image_count	link_count
+1	Tech Innovators Meetup	1	0	0
+2	AI & ML Conference	0	1	0
+3	Frontend Development Bootcamp	0	0	1
+4	Solo Meetup	NULL	NULL	NULL
+5	Resource Only Event	2	0	0
+6	Solo Meetup	NULL	NULL	NULL
+7	Resource Only Event	1	0	0
+event_id	title	session_count
+1	Tech Innovators Meetup	8
+3	Frontend Development Bootcamp	1
+4	Solo Meetup	0
+5	Resource Only Event	0
+6	Solo Meetup	0
+7	Resource Only Event	0
+user_id	full_name	total_events	upcoming_count	completed_count	cancelled_count
+1	Alice Johnson	3	3	0	0
+3	Charlie Lee	1	0	1	0
+2	Bob Smith	3	3	0	0
+event_id	title	session_count
+1	Tech Innovators Meetup	8
+city	average_rating
+Chicago	4.5000
+New York	4.3333
+Los Angeles	4.5000
+event_id	title	registration_count
+1	Tech Innovators Meetup	14
+2	AI & ML Conference	12
+3	Frontend Development Bootcamp	11
+event_id	title	session_a	session_b	start_a	end_a	start_b	end_b
+1	Tech Innovators Meetup	5	8	2025-06-10 13:00:00	2025-06-10 14:00:00	2025-06-10 13:00:00	2025-06-10 14:00:00
+1	Tech Innovators Meetup	6	9	2025-06-10 14:15:00	2025-06-10 15:30:00	2025-06-10 14:15:00	2025-06-10 15:30:00
+1	Tech Innovators Meetup	7	10	2025-06-10 15:45:00	2025-06-10 16:00:00	2025-06-10 15:45:00	2025-06-10 16:00:00
+speaker_name	session_count
+Dr. Tech	3
+Panelist A	2
+Instructor B	2
+event_id	title
+4	Solo Meetup
+6	Solo Meetup
+event_id	title	total_registrations	avg_feedback_rating
+2	AI & ML Conference	12	4.5000
+user_id	full_name	events_attended	feedback_submitted
+1	Alice Johnson	1	2
+2	Bob Smith	1	3
+3	Charlie Lee	1	3
+4	Diana King	1	3
+5	Ethan Hunt	1	2
+6	Fiona Green	3	4
+7	George Brown	3	4
+8	Hannah White	3	2
+9	Ian Black	3	2
+10	Jill Blue	3	2
+11	Kevin Gray	0	0
+12	Lara North	0	0
+13	Mike South	0	0
+14	Nina East	0	0
+15	Oscar West	0	0
+user_id	full_name	feedback_count
+7	George Brown	4
+6	Fiona Green	4
+2	Bob Smith	3
+3	Charlie Lee	3
+4	Diana King	3
+user_id	full_name	event_id	title	registration_count
+6	Fiona Green	1	Tech Innovators Meetup	4
+7	George Brown	1	Tech Innovators Meetup	2
+8	Hannah White	1	Tech Innovators Meetup	2
+9	Ian Black	1	Tech Innovators Meetup	2
+10	Jill Blue	1	Tech Innovators Meetup	2
+6	Fiona Green	2	AI & ML Conference	2
+7	George Brown	2	AI & ML Conference	2
+8	Hannah White	2	AI & ML Conference	2
+9	Ian Black	2	AI & ML Conference	2
+10	Jill Blue	2	AI & ML Conference	2
+6	Fiona Green	3	Frontend Development Bootcamp	2
+7	George Brown	3	Frontend Development Bootcamp	2
+8	Hannah White	3	Frontend Development Bootcamp	2
+9	Ian Black	3	Frontend Development Bootcamp	2
+10	Jill Blue	3	Frontend Development Bootcamp	2
+event_id	title	avg_duration_minutes
+1	Tech Innovators Meetup	54.3750
+2	AI & ML Conference	90.0000
+3	Frontend Development Bootcamp	120.0000
+event_id	title
+4	Solo Meetup
+5	Resource Only Event
+6	Solo Meetup
+7	Resource Only Event

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Community Event Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #f4f7fb;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <header id="mainHeader">
+    <h1 style="color: red;">Local Community Event Portal</h1>
+    <nav>
+      <ul class="navList">
+        <li><a href="#events">Events</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Discover local gatherings, volunteer days, and festivals</h2>
+    <p>Stay connected with your neighborhood through events that bring people together.</p>
+    <a class="cta-button" href="#events">Explore Events</a>
+  </section>
+
+  <section id="events" class="contentSection">
+    <h2>Upcoming Community Events</h2>
+    <div class="eventCard">
+      <h3>Park Cleanup & Tree Planting</h3>
+      <p>Join neighbors for a morning of cleanup, planting, and community-building activities.</p>
+      <ul>
+        <li>Date: July 10</li>
+        <li>Time: 9:00 AM - 12:00 PM</li>
+        <li>Location: Riverside Park</li>
+      </ul>
+    </div>
+    <div class="eventCard">
+      <h3>Summer Arts Market</h3>
+      <p>Shop local artists, enjoy live music, and support creative community projects.</p>
+      <ul>
+        <li>Date: July 18</li>
+        <li>Time: 11:00 AM - 6:00 PM</li>
+        <li>Location: Town Square</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="news" class="columnArticle">
+    <h2>Community News Bulletin</h2>
+    <article>
+      <h3>New bike lanes approved for Main Street</h3>
+      <p>The city council approved the construction of protected bike lanes along Main Street to improve safety and encourage sustainable transportation.</p>
+      <p>Funding will come from the regional transportation grant, with construction expected to start in early autumn.</p>
+      <h3>Free youth coding workshops</h3>
+      <p>Neighborhood learning centers will offer free after-school coding classes for middle and high school students beginning next month.</p>
+      <p>Registration is open online at the civic portal and space is limited to the first 30 students per location.</p>
+    </article>
+  </section>
+
+  <section id="agenda" class="contentSection">
+    <h2>Admin Event Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Community Garden Build</td>
+          <td>Aug 4</td>
+          <td>Maple Park</td>
+          <td>Confirmed</td>
+        </tr>
+        <tr>
+          <td>Neighborhood Concert</td>
+          <td>Aug 15</td>
+          <td>City Hall Lawn</td>
+          <td>Open</td>
+        </tr>
+        <tr>
+          <td>Public Art Walk</td>
+          <td>Sep 1</td>
+          <td>Art District</td>
+          <td>Planned</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact" class="contentSection">
+    <h2>Contact & Volunteer Form</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your full name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" />
+
+      <label for="message">How would you like to help?</label>
+      <textarea id="message" rows="4" placeholder="Share your interests"></textarea>
+
+      <button type="submit" class="cta-button">Submit Inquiry</button>
+    </form>
+  </section>
+</body>
+</html>

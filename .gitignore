@@ -1,0 +1,30 @@
+# Visual Studio and .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# MySQL / database
+*.sql~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# User files
+*.env

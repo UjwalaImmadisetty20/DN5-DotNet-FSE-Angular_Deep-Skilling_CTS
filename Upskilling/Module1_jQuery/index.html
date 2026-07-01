@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Exercises</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+      margin: 0;
+      padding: 20px;
+    }
+    .box {
+      width: 120px;
+      height: 120px;
+      background: #60a5fa;
+      margin: 10px;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .button-row button {
+      margin: 5px;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #2563eb;
+      color: #fff;
+    }
+    #colorBox {
+      width: 100%;
+      height: 120px;
+      background: #ffffff;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    #eventBox {
+      padding: 16px;
+      background: #fef3c7;
+      border: 1px solid #fde047;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="headerTitle">jQuery Exercise Page</h1>
+  <p id="helloWorld">Hello World!</p>
+
+  <section>
+    <h2>Selection and Hide</h2>
+    <button id="hideButton">Hide one paragraph</button>
+    <p class="changeText">Paragraph 1</p>
+    <p class="changeText">Paragraph 2</p>
+    <p class="changeText">Paragraph 3</p>
+  </section>
+
+  <section>
+    <h2>Effects</h2>
+    <div class="button-row">
+      <button id="hideBox">Hide</button>
+      <button id="showBox">Show</button>
+      <button id="fadeOutBox">Fade Out</button>
+      <button id="fadeInBox">Fade In</button>
+      <button id="toggleBox">Toggle</button>
+      <button id="chainBox">Chain</button>
+    </div>
+    <div class="box" id="effectBox"></div>
+  </section>
+
+  <section>
+    <h2>DOM Manipulation</h2>
+    <input type="text" id="colorInput" placeholder="Enter a color" />
+    <button id="addColorButton">Add Color</button>
+    <ul id="colorList"></ul>
+    <div id="colorBox"></div>
+  </section>
+
+  <section>
+    <h2>Events</h2>
+    <div id="eventBox">Hover or click me</div>
+    <input type="text" id="eventInput" placeholder="Type here" />
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
